@@ -1,0 +1,156 @@
+#header
+{
+display : block;
+height : 75px;
+width : 100%;
+position : relative;
+background-color: white;
+border : 2px dotted black;
+}
+
+#logo
+{
+width : 100px;
+height : 75px;
+position : absolute;
+}
+
+h1
+{
+color : #41978a;
+text-align : center;
+}
+#deroulant
+{
+display : block;
+float : left;
+display : inline;
+}
+#menu
+{
+
+width:400px;
+height: auto;
+list-style-type: none;
+margin: 0;
+padding: 0;
+border: 0;
+
+}
+
+#menu > li
+{
+width: 200px;
+margin: 5px;
+padding: 0;
+border: 0;
+}
+#menu li a
+{
+display: block;
+color: #FFFFFF;
+background-color: #41978a;
+margin: 0;
+padding: 4px 8px;
+border:1px solid #FFFFFF;
+text-decoration: none;
+}
+
+#menu li a:hover
+{
+background-color: #000000;
+}
+
+#menu .menuderoulant
+{
+width: 200px;
+display: none;
+list-style-type: none;
+margin: -20px 0 0 180px;
+padding: 0;
+border: 0;
+position:absolute;
+}
+
+#menu .menuderoulant li
+{
+float: right;
+margin:0 auto;
+padding: 0;
+border: 0;
+width: 200px;
+border-top: 1px solid transparent;
+border-right: 1px solid transparent;
+}
+
+#menu .menuderoulant li a
+{
+display: block;
+color: #FFFFFF;
+margin: 0;
+border: 0;
+text-decoration: none;
+background-color: #41978a;
+}
+
+#menu .menuderoulant li a:hover
+{
+background-color: #000000;
+}
+
+#menu li:hover > .menuderoulant
+{
+display: block;
+}
+
+#menu .menuderoulant li a:visited
+{
+background-color:#41978a;
+}
+
+#application
+{
+margin-left : 410px;
+margin-top : 20px;
+height : 500px;
+width : 1000px;
+border : 2px dotted black;
+display : block;
+}
+
+#resultat
+{
+margin-top : -450px;
+margin-left : 410px;
+}
+
+.ble
+{
+color : blue;
+}
+
+.rou
+{
+color : red;
+}
+
+.bla
+{
+color : silver;
+}
+
+#footer
+{
+color : #41978a;
+background-color : #FFFFFF;
+text-align: center;
+font-family : Verdana, Geneva, sans-serif;
+font-size : 15px;
+position : fixed;
+height : 20px;
+width : 100%;
+bottom : 0;
+left : 0;
+border : 2px dotted black;
+}
+
